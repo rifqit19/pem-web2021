@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Formulir PPDB Jalur Zonasi Tahun 2021</title>
+    </head>
+
+    <body>
+        <form action="" method="POST"></form>
+        <fieldset>
+            <h2>Formulir PPDB Jalur Zonasi Tahun 2021</h2>
+            <h3>Info Pendaftaran</h3>
+            <p>
+                <legend>NISN:</legend>
+                <input type="text" name="nisn" placeholder="masukan nisn anda..."/>
+            </p>
+            <p>
+                <legend>Asal Sekolah:</legend>
+                <input type="text" name="asal-sekolah" placeholder="masukan asal sekolah anda..."/>
+            </p>
+            <p>
+                <legend>Tahun Lulus:</legend>
+                <input type="number" min="1900" max="2099" step="1" value="2021" placeholder="masukan tahun lulus anda..."/>
+            </p>
+            <p>
+                <legend>Foto Ijazah:</legend>
+                <input type="file" id="foto-ijazah" name="foto-ijazah" />
+            </p>
+
+            <h3>Data Calon Peserta</h3>
+            <p>
+                <legend>Nama Lengkap:</legend>
+                <input type="text" name="nama-lengkap" placeholder="masukan nama lengkap anda..."/>
+            </p>
+            <p>
+                <legend>NIK:</legend>
+                <input type="text" name="nik" placeholder="masukan NIK anda..."/>
+            </p>
+            <p>
+                <legend>Tempat, Tanggal lahir:</legend>
+                <input type="text" name="tempat-lahir" placeholder="masukan tempat lahir anda..."/>
+                <input type="date" name="tanggal" />
+            </p>
+            
+            <p>
+                <legend>Umur:</legend>
+                <input type="number" name="umur" min="10" max="90"/>
+            </p>
+            <p>
+                <legend>Foto Akte Kelahiran(legalisir):</legend>
+                <input type="file" id="foto-akte" name="foto-akte" />
+            </p>
+            <p>
+                <legend>Jenis kelamin:</legend>
+                <label><input type="radio" name="jenis_kelamin" value="laki-laki"/>Laki-laki</label>
+                <label><input type="radio" name="jenis_kelamin" value="perempuan"/>Perempuan</label>
+            </p>
+            <h4>Alamat</h4>
+            <p>
+                <legend>Desa/Kel.:</legend>
+                <input type="text" name="desa/kel" placeholder="masukan nama desa/kel..."/>
+            </p><p>
+                <legend>Kecamatan:</legend>
+                <input type="text" name="kecamatan" placeholder="masukan nama kecamatan..."/>
+            </p><p>
+                <legend>Kabupaten:</legend>
+                <input type="text" name="nik" placeholder="masukan nama kabupaten..."/>
+            </p><p>
+                <legend>Provinsi:</legend>
+                <input type="text" name="provinsi" placeholder="masukan nama provinsi..."/>
+            </p>
+            <p>
+                <legend>Email:</legend>
+                <input type="email" name="email" placeholder="masukan email anda..."/>
+            </p>
+
+            <h3>Data Orang Tua</h3>
+            <p>
+                <legend>Nomor Kartu Keluarga:</legend>
+                <input type="text" name="nokk" placeholder="masukan nomor KK..."/>
+            </p>
+            <p>
+                <legend>Kartu Keluarga:</legend>
+                <input type="file" id="foto-kk" name="foto-kk" />
+            </p>
+            <p>
+                <legend>Nama Ayah Kandung:</legend>
+                <input type="text" name="nama-ayah" placeholder="masukan nama ayah kandung..."/>
+            </p>
+
+            <label>Agama:</label>
+            <select>
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+            <p>
+                <legend>Pekerjaan:</legend>
+                <input type="text" name="pekerjaan-ayah" placeholder="masukan pekerjaan ayah..." />
+            </p>
+            <p>
+                <legend>Nama Ibu Kandung:</legend>
+                <input type="text" name="nama-ibu" placeholder="masukan nama ibu kandung..."/>
+            </p>
+
+            <label>Agama:</label>
+            <select>
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+            <p>
+                <legend>Pekerjaan:</legend>
+                <input type="text" name="pekerjaan-ayah" placeholder="masukan pekerjaan ibu..." />
+            </p>
+            <h4>Alamat Orang Tua</h4>
+            <p>
+                <legend>Desa/Kel.:</legend>
+                <input type="text" name="desa/kel-ortu" placeholder="masukan nama desa/kel..."/>
+            </p><p>
+                <legend>Kecamatan:</legend>
+                <input type="text" name="kecamatan-ortu" placeholder="masukan nama kecamatan..."/>
+            </p><p>
+                <legend>Kabupaten:</legend>
+                <input type="text" name="nik-ortu" placeholder="masukan nama kabupaten..."/>
+            </p><p>
+                <legend>Provinsi:</legend>
+                <input type="text" name="provinsi-ortu" placeholder="masukan nama provinsi..."/>
+            </p>
+
+            <p>
+                <input type="submit" name="submit" value="Daftar"/>
+            </p>
+
+        </fieldset>
+    </body>
+
+</html>
