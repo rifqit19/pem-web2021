@@ -1,0 +1,24 @@
+
+p{
+    color: blue;
+}
+
+.pink{
+    color: white;
+    background-color: pink;
+    padding: 5px;
+}
+
+#header{
+    background: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+
+input[type=text] {
+    background: cyan;
+    color: rgb(10, 10, 10);
+    padding: 10px;
+    border: 1px;
+}
