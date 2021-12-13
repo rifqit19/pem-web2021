@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Belajar Variabel dalam Javascript</title>
+
+    <script>
+      //membuat variabel
+      var name = "Belajar Kode";
+      var visitorCount = 1000;
+      var isActive = true;
+      var url = "http://dinus.ac.id";
+
+      //Mengisi ulang variabel
+      name = "Belajar kode javascritp pemula";
+
+      //Menampilkan variabel ke dialog(alert)
+      alert("Selamat datang di " + name);
+
+      //Menampilkan variabel ke dalam html
+      document.write("Nama situs: " + name + "<br>");
+      document.write("Jumlah Pengunjung: " + visitorCount + "<br>");
+      document.write("Status Aktif: " + isActive + "<br>");
+      document.write("Alamat URL: " + url + "<br>");
+
+      //mengetahui jenis variabel
+      console.log(typeof name);
+      console.log(typeof visitorCount);
+      console.log(typeof isActive);
+      console.log(typeof url);
+    </script>
+  </head>
+  <body></body>
+</html>
