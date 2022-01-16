@@ -26,6 +26,10 @@ body {
   font-size: 14px;
 }
 
+.line {
+  margin-top: -16px;
+}
+
 .btn-login {
   background-color: #3a4750;
   border-width: 0;
